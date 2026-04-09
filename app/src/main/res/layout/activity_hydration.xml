@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".HydrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration Tracker"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0288D1"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily goal: 2500ml\n\nTips:\n- Drink a glass of water when you wake up.\n- Keep a water bottle with you.\n- Eat water-rich foods like cucumber."
+            android:textSize="18sp"
+            android:lineSpacingExtra="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
